@@ -1,7 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #d9d9d9;
 }
 canvas {
   display: block;
+  margin: auto;
+  
 }
+
+button {
+  background-color: #fcba03;
+}
+
+#button1 {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+#button2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+#button3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+p {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 500px;
+  padding-top: 20px;
+  font-family: 'Rubik Mono One';
+  font-weight: 10px;
+}
+
+
+
